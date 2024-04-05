@@ -14,7 +14,6 @@ import java.util.List;
 @RequestMapping("/v1/images")
 @Slf4j
 public class ImagesController {
-
     @PostMapping
     public ResponseEntity save(
             @RequestParam("file") MultipartFile file,
