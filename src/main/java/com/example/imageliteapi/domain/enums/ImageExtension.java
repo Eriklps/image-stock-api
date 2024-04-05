@@ -8,5 +8,6 @@ import java.util.Arrays;
 public enum ImageExtension {
     JPEG,
     JPG,
+    PNG,
     GIF;
 }
