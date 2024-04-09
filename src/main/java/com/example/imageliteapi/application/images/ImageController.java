@@ -19,7 +19,7 @@ import java.util.List;
 @RequestMapping("/v1/images")
 @Slf4j
 @RequiredArgsConstructor
-public class ImagesController {
+public class ImageController {
 
     private final ImageService service;
     private final ImageMapper mapper;
